@@ -1,0 +1,58 @@
+import { React, useState } from 'react';
+import TextField from '@mui/material/TextField';
+import { Paper, Box } from '@mui/material';
+import Button from '@mui/material/Button';
+import { useNavigate } from 'react-router-dom';
+
+
+function UserForm() {
+
+  const [value, setValue] = useState("")
+
+
+  const navigate = useNavigate();
+
+  const handleChange = (event) => {
+    setValue(event.target.value)
+  }
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    navigate(`/rewardDetails/${value}`)
+
+  }
+  return (
+    <Box>
+      <Paper elevation={3} sx={{ height: '400px', width: '400px', ml: 65, mt: 10 }}>
+        <h2 style={{ textAlign: 'center', padding: '10px' }}>Retailer Reward Points Checker</h2>
+        <p style={{ textAlign: 'center', padding: '10px' }}>*Please enter your Customer ID to check reward points </p>
+        <Box
+          component="form"
+          onSubmit={handleSubmit}
+          sx={{
+            '& .MuiTextField-root': { mt: 2, width: '26ch' },
+            '& .MuiButton-root': { mt: 6, width: '25ch' },
+
+            display: "flex",
+            alignItems: "center",
+            flexDirection: 'column',
+            height: '400px', width: '400px'
+          }}
+          Validate
+          autoComplete="off"
+        >
+          <TextField
+            required
+            id="CustId"
+            label="CustId"
+            variant="standard"
+            value={value}
+            onChange={handleChange}
+          />
+          <Button variant="contained" sx={{ width: '50px' }} type="submit" >Submit</Button>
+        </Box>
+      </Paper>
+    </Box>
+  )
+}
+
+export default UserForm
