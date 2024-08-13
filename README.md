@@ -17,14 +17,6 @@ userDetails:[C001,C002,C003,C004]
 -> used useNavigate to navigate from home page to rewardDetails<br>
 
 ->->rewardPage: this page is used for calculating rewardpoints, filtering each customer details from total transactions, filtering latest 3 months reward Points and providing the UI details of Total Rewards and latest 3 months Rewards details.<br>
-->variables:<br>
-        ->custId: this is a Object storing customerId which is accessing from useParams<br>
-	->transactionData: this is a state storing all TransactionDetails<br>
-	->loading: this is a state, initially it is set to be true once fetched the data setting as a false.<br>
-	->rewards: this is a state, storing all rewardsPercustomer Details<br>
-	->error: this is also a state, storing error Details while fetching data<br>
-	->columns: array of Objects, storing id and label of the customerDetails used for header of the table.<br>
- 
 ->functions:<br>
 	->fetchCustTransaction: using promise  to handle asynchronous code and fetching the customerDetails.<br>
 	->calculatePoints: used to calculate reward points based on the amount.<br>
