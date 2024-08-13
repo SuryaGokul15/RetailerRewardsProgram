@@ -1,0 +1,68 @@
+[
+    {
+        "CustomerID": "C001",
+        "CustomerName": "John Doe",
+        "TransactionDate": "2024-04-15",
+        "TransactionAmount": 100.00
+    },
+    {
+        "CustomerID": "C001",
+        "CustomerName": "John Doe",
+        "TransactionDate": "2024-06-15",
+        "TransactionAmount": 120.00
+    },
+    {
+        "CustomerID": "C001",
+        "CustomerName": "John Doe",
+        "TransactionDate": "2024-06-15",
+        "TransactionAmount": 100.00
+    },
+    {
+        "CustomerID": "C002",
+        "CustomerName": "Emily Davis",
+        "TransactionDate": "2024-06-20",
+        "TransactionAmount": 55.00
+    },
+    {
+        "CustomerID": "C001",
+        "CustomerName": "John Doe",
+        "TransactionDate": "2024-07-05",
+        "TransactionAmount": 200.00
+    },
+    {
+        "CustomerID": "C003",
+        "CustomerName": "Michael Brown",
+        "TransactionDate": "2024-05-12",
+        "TransactionAmount": 100.00
+    },
+    {
+        "CustomerID": "C003",
+        "CustomerName": "Michael Brown",
+        "TransactionDate": "2024-07-12",
+        "TransactionAmount": 75.00
+    },
+    {
+        "CustomerID": "C002",
+        "CustomerName": "Emily Davis",
+        "TransactionDate": "2024-07-22",
+        "TransactionAmount": 95.00
+    },
+    {
+        "CustomerID": "C001",
+        "CustomerName": "John Doe",
+        "TransactionDate": "2024-08-10",
+        "TransactionAmount": 130.00
+    },
+    {
+        "CustomerID": "C003",
+        "CustomerName": "Michael Brown",
+        "TransactionDate": "2024-08-18",
+        "TransactionAmount": 60.00
+    },
+    {
+        "CustomerID": "C002",
+        "CustomerName": "Emily Davis",
+        "TransactionDate": "2024-08-25",
+        "TransactionAmount": 110.00
+    }
+]
