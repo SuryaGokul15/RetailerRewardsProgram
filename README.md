@@ -33,3 +33,18 @@ userDetails:[C001,C002,C003,C004]
  
 ->->userTable: it used to show table structure of customerTransactionDetails.<br>
 ->->App: using router routing the path from homepage to rewardDetails.
+
+
+Results:
+
+HomePage:<br>
+<img width="949" alt="image" src="https://github.com/user-attachments/assets/a593a342-cfc8-4549-b581-a61501b9410d"><br>
+
+RewardDetailsPage:<br>
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/3ab58130-8277-46a4-b1ac-cfd8e7aadc39">
+
+if user given wrong credentials:<br>
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/446716d0-4606-4f11-b01c-b54b42c3de58">
+
+
+
